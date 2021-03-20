@@ -29,7 +29,7 @@ function LogIn() {
   const history = useHistory();
   const location = useLocation();
   let { from } = location.state || { from: { pathname: "/" } };
-
+console.log(loggedInUser, setLoggedInUser);
   const GoogleProvider = new firebase.auth.GoogleAuthProvider();
   const handleSignIn = ()=>{
     firebase.auth().signInWithPopup(GoogleProvider)
