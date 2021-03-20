@@ -1,0 +1,14 @@
+.flex{
+    display:flex;
+   
+}
+
+.Des-size{
+    width:400px;
+    margin-top: 20px;
+}
+
+.map-size img{
+   width:500px;
+   margin-top: 20px;
+}

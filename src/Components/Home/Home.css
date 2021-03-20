@@ -1,0 +1,12 @@
+.size{
+    width: 200px;
+    margin:20px;
+}
+.flex{
+    display: inline-flex;
+}
+
+.back-img{
+    
+    width: 1030px;
+}
