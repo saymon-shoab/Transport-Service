@@ -4,8 +4,7 @@ import React, { createContext, useState } from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Navber from './Components/NavBer/Navber';
 import Home from './Components/Home/Home';
