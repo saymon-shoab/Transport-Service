@@ -25,7 +25,7 @@ function LogIn() {
     Photo: ''
   })
 
-  const [loggedInUser, setLoggedInUser] =useContext(UserContext);
+   const [ loggedInUser, setLoggedInUser] =useContext(UserContext);
   const history = useHistory();
   const location = useLocation();
   let { from } = location.state || { from: { pathname: "/" } };
@@ -75,7 +75,7 @@ function LogIn() {
 
   const handleBlur = (event) => {
     let isFieldValid = true;
-    // console.log(event.target.name , event.target.value)
+    console.log(event.target.name , event.target.value)
     if(event.target.name === 'email'){
         isFieldValid = /\S+@\S+\.\S+/.test(event.target.value);
       
