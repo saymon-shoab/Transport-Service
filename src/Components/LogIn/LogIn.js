@@ -74,7 +74,7 @@ function LogIn() {
   }
 
   const handleBlur = (event) => {
-    const isFieldValid = true;
+    let isFieldValid = true;
     // console.log(event.target.name , event.target.value)
     if(event.target.name === 'email'){
         isFieldValid = /\S+@\S+\.\S+/.test(event.target.value);
@@ -150,15 +150,6 @@ function LogIn() {
   return (
     <div className="App"> 
       
-        
-        
-         {/* {
-           user.isSignedIn && 
-           <div> <h1> Welcome : {user.name} </h1>
-           <h3>Your email: {user.email}</h3>
-           <img src={user.photo} alt=""/>
-           </div>
-         } */}
 
         <br/>
          <input type="checkBox" name="newUser" onChange={ () => setNewUser(!newUser) } id=""/>
